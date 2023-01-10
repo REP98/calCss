@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=CSS Calculator
+Name[es]=Calculadora CSS
+GenericName=Calculator
+GenericName[es]=Calculadora
+Comment=Easily Calculate Your CSS Units
+Comment[es]=Calcule Fácilmente sus unidades CSS
+Exec=/opt/Calculate_CSS/calculatecss
+Icon=/opt/Calculate_CSS/calculator1.svg
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=CSS;calculator;unid;
+Keywords[es]=CSS;calculadora;unidades
+Categories=GTK;Utility;Calculator;Development;WebDevelopment;

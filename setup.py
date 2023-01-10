@@ -1,3 +1,9 @@
+import os
+from distutils.core import setup
+
+CURRENT_PATH = os.path.abspath(os.getcwd())+'/image/png/calculator1.png'
+
+desc="""\
 # calCss
 Calculadora de unidades CSS
 
@@ -6,3 +12,25 @@ Calculadora de unidades CSS
 
 Hecha en Python, pensada en los desarrolladores frontEnd
 Licensia MIT
+"""
+
+setup(
+	name="Calculadora CSS",
+	version="1.1",
+	packages=["bin"],
+	url="https://github.com/REP98/calCss",
+	download_url="https://github.com/REP98/calCss/release",
+	license="MIT",
+	author="Robert Pérez",
+	author_email="delfinmundo@gmail.com",
+	description=desc,
+	package_data={'.': "*.py"},
+	requires=["tkinter","os","PIL","re", "webbrowser"],
+	scripts=["calculatecss.py"],
+	data_files=[("image", ("image/**/.svg", "image/**/.png"))],
+	classifiers=[
+		"License :: MIT",
+		'Programming Language :: Python',
+		'Operating System :: Unix :: Linux'
+	]
+)
