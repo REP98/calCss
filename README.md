@@ -17,7 +17,8 @@ Calcule con facilidad sus unidades CSS
 * CM
 * MM
 * line-height
-Todas esta unidades se pueden conviertir entre ellas mismas
+Todas esta unidades se pueden convertir entre ellas mismas
 
 > Hecha en Python, pensada en los desarrolladores frontEnd
-Licensia [MIT](LICENSE)
+
+Licencia [MIT](LICENSE)
