@@ -1,8 +1,23 @@
 # calCss
-Calculadora de unidades CSS
+Calcule con facilidad sus unidades CSS
 
 
-![ScreenShot](image/sreen.png)
+![ScreenShot](image/screen.png)
 
-Hecha en Python, pensada en los desarrolladores frontEnd
-Licensia MIT
+## Unidades Soportadas
+* PX
+* REM
+* EM
+* %
+* IN
+* PC(Computer)
+* PT(Computer)
+* VW
+* VH
+* CM
+* MM
+* line-height
+Todas esta unidades se pueden conviertir entre ellas mismas
+
+> Hecha en Python, pensada en los desarrolladores frontEnd
+Licensia [MIT](LICENSE)
